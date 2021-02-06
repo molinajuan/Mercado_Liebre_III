@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Helpers */
+
+.d-flex {
+    display: flex !important;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-space-between {
+    justify-content: space-between;
+}
+
+.cajitas {
+    width: 100px;
+    background-color: red;
+    margin: 20px;
+}

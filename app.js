@@ -17,6 +17,10 @@ app.get('/', (req, res) => {
     res.sendFile(path.resolve("./views/home.html"));
 });
 
+app.get('/prueba', (req, res) => {
+    res.sendFile(path.resolve("./views/prueba.html"));
+});
+
 app.post('/',(req,res)=>{
 
     // validar usuario y contraseña
